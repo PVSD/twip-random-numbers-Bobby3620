@@ -4,8 +4,8 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        randomNumber ranNum = new randomNumber();
-        ranNum.generateRanNum();
-        ranNum.detectDuplicate();
+        randomNumber ranClass = new randomNumber();
+        ranClass.generateRanNum();
+        ranClass.detectDuplicate();
     }
 }
